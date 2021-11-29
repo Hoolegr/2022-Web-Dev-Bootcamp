@@ -1,14 +1,42 @@
 body{
-        background-color: #864879;
-
-
+        background-color: #E9A6A6;
+        color: #3F3351;
       }
 
   hr{
     background-color: none;
     border-style: none;
     border-top-style: dotted;
-    border-color: #E9A6A6;
+    border-color: #864879;
     border-width: 5px;
     width: 50%;
   }
+
+h1{
+  text-align: center;
+  color: #1F1D36;
+}
+h2{
+  text-align: center;
+  color: #1F1D36;
+}
+h3{
+  text-align: center;
+  color: #1F1D36;
+}
+
+table{
+  align-self: center;
+  align-items: center;
+  align-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+ul li::marker{
+text-align: center;
+}
+
+ol::marker{
+  text-align: center;
+}
